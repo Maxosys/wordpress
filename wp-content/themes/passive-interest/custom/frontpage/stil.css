@@ -1,0 +1,265 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face {
+font-family: "georgia";
+src: url('font/Georgia.eot');
+src: url('font/Georgia.woff') format('woff'), url('font/Georgia.ttf') format('truetype'), url('font/Georgia.svg') format('svg');
+}
+
+.clear{
+	clear:both;	
+}
+body{
+	height:100%;	
+}
+/*.first_wrapper_gs{
+	position:relative;
+	margin:0 auto;
+	width:70%;
+	max-width:1300px;
+	height:100%;
+	min-height:200px;
+}
+.first_nav_gs{
+	position:fixed;
+	margin:0 auto;
+	bottom:0px;
+	border-top:1px solid #ccc;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:100%;
+	margin-top:10px;
+	background: #f8f8f8;
+	text-align:center;	
+}
+.first_nav_gs ul{
+	text-align:center;
+	width:100%;
+}
+.first_nav_gs li{
+	display:inline-block;	
+	border-right: 1px solid #ccc;
+	text-align:center;
+	padding:0 2.5% 0 2.5%;
+	
+}
+.first_nav_gs li:last-child {
+	border-right:none;	
+}
+.first_nav_gs a{
+	text-decoration:none;
+	color:rgba(144,144,144,0.7);
+	font-size:12px;
+	font-family: 'Raleway', sans-serif;
+	font-weight:400;
+	text-transform:uppercase;
+}
+.first_nav_gs a:hover{
+	color:rgba(0,0,0,0.8);
+}
+.first_logo_gs{
+	position:relative;
+	margin:0 auto;
+	width:90%;
+	max-width:310px;	
+	margin-top:20px;
+}
+.first_message_gs{
+	position:relative;
+	margin:0 auto;
+	font-family:'georgia';
+	width:90%;
+	max-width:300px;
+	font-size:20px;
+	margin-top:30px;
+	text-align:center;	
+}
+.first_signup_gs{
+	position:relative;
+	margin:0 auto;
+	width:100%;
+	max-width:400px;
+	text-align:center;
+	margin-top:30px;
+}
+.first_fb_signup_gs{
+	display:inline-block;
+	cursor:pointer;
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5676bc), color-stop(100%, #31497b));
+	background: -webkit-linear-gradient(#5676bc,#31497b);
+	background: -moz-linear-gradient(#5676bc,#31497b);
+	background: -o-linear-gradient(#5676bc,#31497b);
+	background: linear-gradient(#5676bc,#31497b);
+	background-color: #435f9b;
+	border: 1px solid #293e69;
+	border-top-color: #31497b;
+	color: #444;
+	text-shadow: 0 1px #fff;
+	text-decoration:none;
+	position: relative;	
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	margin-top:3px;
+	margin-bottom:3px;
+	padding-top:14px;
+	padding-right:2px;
+	padding-bottom:15px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.first_fb_signup_gs span{
+	font-size: 14px;
+	margin-left:45px;
+	font-family: 'Raleway', sans-serif;
+	font-weight:600;
+	display: inline-block;
+	vertical-align: middle;
+	zoom: 1;
+	text-shadow: 0 -1px rgba(0,0,0,0.25);
+	color: #fff;
+	padding: 0 5px 0 5px;
+}
+.first_fb_signup_gs em{
+	-webkit-box-shadow: 1px 0 0 rgba(0,0,0,0.05);
+	-moz-box-shadow: 1px 0 0 rgba(0,0,0,0.05);
+	box-shadow: 1px 0 0 rgba(0,0,0,0.05);
+	width: 41px;
+	height: 40px;
+	padding-right:10px;
+	background-image:url(img/fb.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border-right:2px solid #5a78b0;
+	bottom: 0;
+	left: 0;
+	padding: 0;
+	padding-top:1px;
+	position: absolute;
+	top: 0;	
+}
+.first_mail_signup_gs{
+	color: #333;
+	text-decoration:none;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 0 1px #fff;
+	cursor: pointer;
+	font-weight: 600;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-font-smoothing: antialiased;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.22);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.22);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.22);
+	display: inline-block;
+	vertical-align: middle;
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f0f0f0));
+	background: -webkit-linear-gradient(#ffffff,#f0f0f0);
+	background: -moz-linear-gradient(#ffffff,#f0f0f0);
+	background: -o-linear-gradient(#ffffff,#f0f0f0);
+	background: linear-gradient(#ffffff,#f0f0f0);
+	background-color: #f7f7f7;
+	text-shadow: 0 1px #fff;
+	border: 1px solid #ccc;
+	white-space: nowrap;
+	padding: 14px 14px 14px 14px;
+	box-sizing: border-box;
+	margin-top: 3px;
+	margin-bottom:3px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.first_login_qs{
+	position:relative;
+	width:90%;
+	max-width:300px;
+	margin:0 auto;
+	text-align:center;
+	margin-top:20px;
+	font-size:14px;	
+	margin-bottom:40px;
+}
+.first_login_qs a{
+	text-decoration:none;
+	color:#33845d;	
+}
+.first_img_gs{			
+	margin-top: 400px;
+	position: fixed;
+	bottom:0;
+	left:0;
+	top:0;
+	right:0;
+}
+.first_img_gs_fixed {
+	bottom:36px;
+	left:0;
+	right:0;
+	position:absolute;
+	margin:auto;
+	background:url(img/frontimage.png);
+	background-size:contain;
+	background-color: #fff;
+	background-position: 50% 100%;
+	background-repeat:no-repeat;
+	height:100%;
+	max-height: 461px;
+	max-width: 1061px;
+	width: 100%;
+		
+}*/
+@media only screen and (max-width: 330px) {
+.first_fb_signup_gs span{
+	font-size:11px;
+}
+.first_mail_signup_gs{
+	font-size:11px;	
+}
+}

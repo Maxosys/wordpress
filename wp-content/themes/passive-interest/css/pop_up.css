@@ -1,0 +1,205 @@
+
+
+#backgroundPopup {
+
+    background: none repeat scroll 0 0 #000000;
+
+    border: 1px solid #CECECE;
+
+    display: none;
+
+    height: 100%;
+
+    left: 0;
+
+    position: fixed;
+
+    top: 0;
+
+    width: 100%;
+
+    z-index:1250;
+
+}
+
+#popupContact {
+
+    background: none repeat scroll 0 0 #FFFFFF;
+
+    border: 2px solid #CECECE;
+
+    display: none;
+
+    font-size: 13px;
+
+    height: 255px;
+
+    padding: 12px;
+
+    position: fixed;
+
+    width: 577px;
+
+    z-index: 1380;
+
+}
+
+#popupContact h11 {
+
+    border-bottom: 1px dotted #D3D3D3;
+
+    color: #0771a5;
+
+    font-size: 22px;
+
+    font-weight: 700;
+
+    margin-bottom: 20px;
+
+    padding-bottom: 2px;
+
+    text-align: left;
+
+	margin:5px 0 5px 0;
+
+}
+
+#popupContactClose {
+
+	background:url(../images/cross_btn.png) no-repeat;
+
+	width:32px;
+
+	height:42px;
+
+    color: #6FA5FD;
+
+    display: block;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    line-height: 14px;
+
+    position: absolute;
+
+    right: 6px;
+
+    top: 4px;
+
+	cursor:pointer;
+
+}
+
+#login{
+
+	float:left;
+
+
+
+}
+
+
+
+#regis{
+
+	float:left;
+
+	margin-left:3px;
+
+	
+
+}
+
+
+
+#backgroundPopup_2 {
+
+    background: none repeat scroll 0 0 #000000;
+
+    border: 1px solid #CECECE;
+
+    display: none;
+
+    height: 100%;
+
+    left: 0;
+
+    position: fixed;
+
+    top: 0;
+
+    width: 100%; 
+
+    z-index: 1070;
+
+}
+
+#popupContact_2 {
+
+    background: none repeat scroll 0 0 #FFFFFF;
+
+    border: 2px solid #CECECE;
+
+    display: none;
+
+    font-size: 13px;
+
+    height:145px;
+
+    padding: 12px;
+
+    position: fixed;
+
+    width: 569px;
+
+    z-index: 1100;
+
+}
+
+#popupContact_2 h11 {
+
+    border-bottom: 1px dotted #D3D3D3;
+
+    color: #0771a5;
+
+    font-size: 22px;
+
+    font-weight: 700;
+
+    margin-bottom: 20px;
+
+    padding-bottom: 2px;
+
+    text-align: left;
+
+	margin:5px 0 5px 0;
+
+}
+
+#popupContactClose_2 {
+
+	/*background:url(../images/cross_btn.png) no-repeat;*/
+
+    display: block;
+
+    font-size: 14px;
+
+	width:32px;
+
+	height:42px;
+
+    font-weight: 700;
+
+    line-height: 14px;
+
+    position: absolute;
+
+    right: 6px;
+
+    top: 4px;
+
+	cursor:pointer;
+
+}
